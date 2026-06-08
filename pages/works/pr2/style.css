@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #00aeffad;
+}
+html{
+  background-color: #0676a1;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+kbd {
+
+    background-color: rgba(0, 183, 255, 0.877);
+}
+
+nav {
+    background-color: rgba(21, 208, 241, 0.884);
+    margin-inline-end: 1000px;
+    padding: 5px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.soderjanie {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav p {
+    margin-left: 10px;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nazad {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 13px;
+    margin: 13px;
+    background-color: rgb(0, 119, 255);
+}

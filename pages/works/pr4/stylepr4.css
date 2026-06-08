@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    margin:auto;
+    background-color: rgb(0, 195, 255);
+   background:url("../pr4/map/img/colorful-exotic-fish-swimming-deep-blue-water-aquarium-with-green-tropical-plants_127089-19210.jpg") no-repeat ;
+   background-size: 100% ;
+}
+h1{
+    size: 200px;
+    background-color:#069bffbb;
+    padding: 100px;
+}
+div{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    background-color: #0b9dffcb;
+    
+}
+h2{
+     size: 200px;
+    background-color:#0890dfcb;
+    padding: 100px;
+}
+

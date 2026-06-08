@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100px;
+}
+
+.header {
+    background: url('111.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-btn, .search-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.menu-btn img, .search-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.months {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.months span {
+    padding: 8px 12px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.months span.active {
+    border-bottom: 3px solid #e91e63;
+}
+
+.dates {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    overflow-x: auto;
+    background: #f8f9fa;
+}
+
+.dates span {
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dates span.active {
+    background: #e91e63;
+    color: white;
+}
+
+.tasks {
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.task {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.time {
+    color: #999;
+    font-size: 14px;
+    min-width: 50px;
+}
+
+.time.crossed {
+    text-decoration: line-through;
+    color: #e91e63;
+}
+
+.task-content {
+    flex: 1;
+}
+
+.task-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.task-desc {
+    font-size: 13px;
+    color: #999;
+}
+
+.status {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.status img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.add-btn {
+    position:fixed;
+    bottom: 30px;
+    right: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.add-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

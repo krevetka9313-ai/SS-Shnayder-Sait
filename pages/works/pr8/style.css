@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+@font-face {
+    font-family: roboto_z;
+    src: url(../../Roboto-Black.ttf);
+}
+
+.Burzhui{
+    font-style: normal;
+    color: #e6780a;
+    line-height: 50px;
+    border: 1px solid orange;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: 670px;
+}
+.Burzhui a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.shapka a{
+    color: #e6780a;
+}
+
+.bucha {
+    text-align: center;
+    font-family: roboto_z;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    text-indent: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color:rgb(161, 85, 14);
+    font-family:'Times New Roman', Times, serif;
+    font: weight 300px;
+}
+.ssilki{
+    color:rgb(161, 85, 14);
+    font-family:'Times New Roman', Times, serif
+}
+footer, a{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+.Burzhui a{
+    color: #e6780a;
+}

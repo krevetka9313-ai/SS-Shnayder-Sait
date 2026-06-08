@@ -1,0 +1,87 @@
+.text-align {
+text-align: center;
+}
+
+.text-ident {
+    text-indent:20px, 70%;
+}
+
+.line-height {
+    line-height: 200px;
+}
+
+.vertical-align {
+    vertical-align:super;
+}
+
+.word-spacing {
+     letter-spacing: normal;
+    letter-spacing: 20px;
+}
+
+.letter-spacing{
+    letter-spacing: normal;
+    letter-spacing: 14px;
+}
+
+.white-space {
+    white-space:initial;
+}
+
+.tab-size{
+    tab-size: 16px;
+}
+
+
+.text-transform {
+    text-transform:uppercase;
+}
+
+.direction {
+    direction:ltr;
+}
+
+.unicode-bidi {
+    unicode-bidi:bidi-override;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.font-family{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.font-style {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.font-variant {
+    font-variant:small-caps;
+}
+
+.color {
+    color: red;
+}
+
+.font-weight{
+    font-weight: 600;
+}
+
+.font-size {
+    font-size: 70px;
+}
+
+.text-shadow {
+    text-shadow: black, 20px;
+}
+
+.text-indent {
+    text-indent: 0cqi;
+}
+
+.word-break {
+    word-break:break-all;
+}
