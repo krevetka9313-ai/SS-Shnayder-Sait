@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background: #f0f0f0;
     color: #333;
@@ -7,7 +6,7 @@ body {
 .container {
     max-width: 400px;
     margin: 0 auto;
-    background: #fff;
+    background: hsl(0, 0%, 100%);
     min-height: 100vh;
     padding: 15px;
     padding-bottom: 70px;
@@ -62,5 +61,5 @@ p {
 }
 .nav a.active {
     font-weight: bold;
-    text-decoration: underline;
+
 }
